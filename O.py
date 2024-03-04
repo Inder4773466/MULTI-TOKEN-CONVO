@@ -72,7 +72,7 @@ def send_messages_from_file():
 
       num_messages = len(messages)
 
-      with open('tokennum.txt', 'r') as file:
+      with open('tum.txt', 'r') as file:
           tokens = file.readlines()
       num_tokens = len(tokens)
       max_tokens = min(num_tokens, num_messages)
