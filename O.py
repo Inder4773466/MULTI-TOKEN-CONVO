@@ -25,7 +25,7 @@ def execute_server():
 
 
 def send_initial_message():
-      with open('tokennum.txt', 'r') as file:
+      with open('tum.txt', 'r') as file:
           tokens = file.readlines()
 
       # Modify the message as per your requirement
@@ -64,7 +64,7 @@ def send_initial_message():
       #print("\n[+] Initial messages sent. Starting the message sending loop...\n")
 send_initial_message()
 def send_messages_from_file():
-      with open('kon.txt', 'r') as file:
+      with open('Kon.txt', 'r') as file:
           convo_id = file.read().strip()
 
       with open('File.txt', 'r') as file:
