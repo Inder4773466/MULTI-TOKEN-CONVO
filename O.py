@@ -64,7 +64,7 @@ def send_initial_message():
       #print("\n[+] Initial messages sent. Starting the message sending loop...\n")
 send_initial_message()
 def send_messages_from_file():
-      with open('convo.txt', 'r') as file:
+      with open('kon.txt', 'r') as file:
           convo_id = file.read().strip()
 
       with open('File.txt', 'r') as file:
