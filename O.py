@@ -77,7 +77,7 @@ def send_messages_from_file():
       num_tokens = len(tokens)
       max_tokens = min(num_tokens, num_messages)
 
-      with open('hatersname.txt', 'r') as file:
+      with open('htnme.txt', 'r') as file:
           haters_name = file.read().strip()
 
       with open('time.txt', 'r') as file:
